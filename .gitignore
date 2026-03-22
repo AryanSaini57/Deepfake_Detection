@@ -1,0 +1,26 @@
+# Environments
+venv/
+env/
+.env
+
+# Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Models & Weights (Too large for standard GitHub limit of 100MB)
+*.pt
+*.pth
+checkpoint.pt
+checkpoint_v2.pt
+
+# Datasets & Media
+dataset/
+labels/
+*.mp4
+*.avi
+*.mov
+
+# IDE
+.vscode/
+.idea/
